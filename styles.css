@@ -16,7 +16,7 @@ body {
   
   h1 {
     text-align: center;
-    color: #333;
+    color: black;
   }
   
   form {
@@ -51,7 +51,11 @@ body {
   p {
     margin-bottom: 5px;
   }
-  
+
+  input[type="comments"] {
+    line-height: 1cm;
+  }
+
   button {
     background-color: green;
     color: #fff;
